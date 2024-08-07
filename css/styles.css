@@ -118,6 +118,7 @@ img {
   padding-right: 50px;
 }
 .site-header-logo-link {
+  flex-shrink: 0;
   display: flex;
   text-decoration: none;
 }
@@ -151,12 +152,33 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--text-color);
+  white-space: nowrap;
 }
 .sitenav-link:hover {
   color: var(--accent-color-green);
 }
 .sitenav-link:active {
  opacity: 0.6;;
+}
+
+/* HERO */
+.hero {
+}
+.hero-container {
+}
+.container {
+}
+.hero-info-wrapper {
+}
+.lead-cta-heading {
+}
+.hero-text {
+}
+.button {
+}
+.button-green {
+}
+.hero-img {
 }
 
 /* RETINA */
@@ -167,8 +189,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-
   .site-header-hero-wrapper {
-    background-image: url("../img/site-header-intro-bg2x.jpg");
+    background-image: url("../img/site-header-intro-bg@2x.jpg");
   }
 }
